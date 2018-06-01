@@ -9,7 +9,7 @@ my_lunch <- c("soup", "pb + j")
 # Create a list `meals` that has contains your breakfast and lunch
 meals <- list(breakfast = my_breakfast, lunch = my_lunch)
 
-# Add a "dinner" element to your `meals` list that has what you plan to eat 
+# Add a "dinner" element to your `meals` list that has what you plan to eat
 # for dinner
 meals$dinner <- c("curry", "rice")
 
@@ -36,7 +36,7 @@ items <- lapply(meals, length)
 # returns the pizza-fied vector
 add_pizza <- function(meal) {
   meal <- c(meal, "pizza")
-  meal  # return the new vector
+  meal # return the new vector
 }
 
 # Create a vector `better_meals` that is all your meals, but with pizza!
